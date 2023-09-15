@@ -5,16 +5,12 @@ body, h1, h2, p {
 
 body {
     font-family: Arial, sans-serif;
-    background-color: #353333;+
-
-
-
-
-    
+    background-color: #003a70;
+    background-image: url("");
 }
 
 header {
-    background-color: #333333;
+    background-color: #003a70;
     color: white;
     padding: 10px 0;
     display: flex;
@@ -65,8 +61,6 @@ nav ul li a {
     border: 2px
   }
   
-
-}
 .Product{
     background-color: #fff;
     padding: 20px;
@@ -79,7 +73,7 @@ nav ul li a {
 
 footer {
     text-align: center;
-    background-color: #333;
+    background-color:#003a70;
     color: white;
     padding: 10px 0;
 }
@@ -113,4 +107,32 @@ footer {
 .image img {
     width:1250px; 
     height: 300px; 
+      
+}
+
+.container {
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px auto;
+    max-width: 600px;
+}
+
+h4 {
+    font-size: 24px;
+    color: #f3eded;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+h1 {
+    font-size: 36px;
+    color: #e7eaec;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+p {
+    font-size: 18px;
+    color: #faf9f9;
+    line-height: 1.5;
+    font-style: italic;
 }
